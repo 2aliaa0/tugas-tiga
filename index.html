@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Rumah Sakit</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css/main.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+            <img src="gambar/logo.png" alt="Shopping Bag Icon">
+            <span class="text-uppercase fw-lighter ms-2"></span>
+        </a>
+
+        <!-- Navbar Menu -->
+        <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#home">home</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#about">About Us</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#layanan">layanan</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#artikel">artikel</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#docktor">Doctors</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End of Navbar -->
+
+    <!-- Gambar di HTML -->
+    <section id="home" class="py-5">
+    <img src="gambar/rs karyadi.jpg" class="img-fluid w-100" alt="Rumah Sakit Dr. Kariadi">
+    <div class="hero-text position-absolute top-50 start-50 translate-middle text-center text-black">
+      <h1>Selamat Datang di Rumah Sakit Dr. Kariadi</h1>
+      <p>Kesehatan Anda, Prioritas Kami</p>
+    </div>
+    </section>
+  </header>
+
+  <!-- Section About -->
+  <section id="about" class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="gambar/ganbar about.jpg" alt="Rumah Sakit Dr. Kariadi" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Tentang Rumah Sakit Dr. Kariadi</h2>
+        <p>Rumah Sakit Dr. Kariadi adalah salah satu rumah sakit terbesar di kota, menyediakan pelayanan medis berkualitas tinggi dengan fasilitas modern dan tenaga medis yang berpengalaman.</p>
+        <p>Sejak didirikan, kami berkomitmen untuk memberikan pelayanan terbaik kepada pasien kami, dengan menyediakan layanan kesehatan yang komprehensif, mulai dari perawatan umum hingga perawatan spesialisasi.</p>
+        <p>Kami juga fokus pada pengembangan teknologi medis terbaru untuk memberikan perawatan yang lebih efisien dan efektif. Rumah Sakit Dr. Kariadi berusaha untuk selalu menjadi pilihan utama bagi kesehatan Anda.</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Bagian Layanan Rumah Sakit -->
+    <div id="layanan" class="container py-5">
+        <h2 class="text-center mb-4">Layanan Kami</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Service 1 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Pelayanan Medis Umum</h5>
+                        <img src="gambar/pelayanan medis umum.jpg">
+                        <p class="card-text service-description">Layanan kesehatan umum yang meliputi pemeriksaan rutin, diagnosis, dan pengobatan.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Layanan Darurat</h5>
+                        <img src="gambar/ruang darurat.jpg">
+                        <p class="card-text service-description">Pelayanan medis darurat 24 jam untuk penanganan keadaan kritis dan kecelakaan.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Layanan Radiologi</h5>
+                        <img src="gambar/ruang radiologi.webp">
+                        <p class="card-text service-description">Pemeriksaan menggunakan sinar X, CT scan, dan MRI untuk diagnosis lebih mendalam.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Konsultasi Spesialis</h5>
+                        <img src="gambar/ruang spesialis.png">
+                        <p class="card-text service-description">Jadwalkan konsultasi dengan berbagai spesialis seperti kardiologi, bedah, dan lainnya.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Layanan Kamar Rawat Inap</h5>
+                        <img src="gambar/ruang rawat inap.jpg">
+                        <p class="card-text service-description">Kamar rawat inap dengan fasilitas lengkap dan pelayanan yang ramah dan profesional.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="col">
+                <div class="card service-card">
+                    <div class="card-body">
+                        <h5 class="card-title service-title">Laboratorium & Tes Kesehatan</h5>
+                        <img src="gambar/ruang laboratorium.jpg">
+                        <p class="card-text service-description">Layanan tes kesehatan dan pemeriksaan laboratorium untuk memastikan kondisi tubuh Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Artikel Kesehatan</h1>
+        <p>Menjaga kesehatan Anda dengan informasi terbaru</p>
+    </header>
+
+    <!-- Bagian Artikel -->
+    <div id="artikel" class="container my-5">
+        <div class="row">
+            <!-- Artikel 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <img src="gambar/gambar 1.jpeg" class="card-img-top" alt="Artikel Kesehatan">
+                    <div class="card-body">
+                        <h5 class="card-title">Menjaga Imunitas di Musim Pancaroba</h5>
+                        <p class="card-text">Pada musim pancaroba, sistem kekebalan tubuh kita rentan terhadap penyakit. Cari tahu bagaimana cara menjaga daya tahan tubuh agar tetap kuat.</p>
+                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Artikel 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <img src="gambar/gambar 2.png" class="card-img-top" alt="Artikel Kesehatan">
+                    <div class="card-body">
+                        <h5 class="card-title">Pentingnya Cek Kesehatan Berkala</h5>
+                        <p class="card-text">Pemeriksaan kesehatan secara rutin dapat membantu mencegah penyakit serius. Pelajari mengapa pemeriksaan kesehatan berkala itu sangat penting.</p>
+                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <img src="gambar/gambar 3.jpg" class="card-img-top" alt="Artikel Kesehatan">
+                    <div class="card-body">
+                        <h5 class="card-title">Tips Diet Sehat untuk Penderita Diabetes</h5>
+                        <p class="card-text">Diet sehat sangat penting bagi penderita diabetes. Temukan tips dan trik untuk menjaga pola makan yang baik bagi penderita diabetes.</p>
+                        <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Formulir Kontak -->
+<section id="contact" class="contact-section py-5">
+    <div class="container contact-container">
+      <div class="contact-header mb-5">
+        <h2>Hubungi Kami</h2>
+        <p>Kami siap membantu Anda. Silakan kirim pertanyaan atau pesan Anda di bawah ini.</p>
+      </div>
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan Nama">
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+          </div>
+        </div>
+        <div class="mb-4">
+          <label for="message" class="form-label">Pesan</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Tulis pesan Anda..."></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-custom">Kirim Pesan</button>
+        </div>
+      </form>
+  
+      <!-- Informasi Kontak -->
+      <div class="contact-info mt-5">
+        <p><i class="fas fa-map-marker-alt"></i> Jl. Dr. Kariadi No. 1, Semarang, Indonesia</p>
+        <p><i class="fas fa-phone-alt"></i> +62 24 12345678</p>
+        <p><i class="fas fa-envelope"></i> info@rs-kariadi.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulir Dokter -->
+<section id="docktor" class="contact-section py-5">
+    <title>Profil Dokter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container py-5">
+    <h1 class="text-center mb-5">Profil Dokter</h1>
+    <div class="row g-4">
+
+        <!-- Dokter 1 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 1.jpg" class="card-img-top dokter-img" alt="Dokter 1">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Puteri Lestari, Sp.PD</h5>
+                    <p class="card-text">Spesialis Penyakit Dalam</p>
+                    <p class="card-text"><small class="text-muted">10 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dokter 2 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 2.jpg" class="card-img-top dokter-img" alt="Dokter 2">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Siti Aminah, Sp.KK</h5>
+                    <p class="card-text">Spesialis Kulit & Kelamin</p>
+                    <p class="card-text"><small class="text-muted">8 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dokter 3 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 3.jpg" class="card-img-top dokter-img" alt="Dokter 3">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Calista Putri Sari, Sp.B</h5>
+                    <p class="card-text">Spesialis Bedah Umum</p>
+                    <p class="card-text"><small class="text-muted">12 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dokter 4 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 5.jpg" class="card-img-top dokter-img" alt="Dokter 4">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Budi Setiawan, Sp.A</h5>
+                    <p class="card-text">Spesialis Anak</p>
+                    <p class="card-text"><small class="text-muted">9 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dokter 5 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 6.jpg" class="card-img-top dokter-img" alt="Dokter 5">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Dimas Pratama, Sp.JP</h5>
+                    <p class="card-text">Spesialis Jantung</p>
+                    <p class="card-text"><small class="text-muted">11 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dokter 6 -->
+        <div class="col-md-4">
+            <div class="card h-100 text-center shadow-sm">
+                <img src="gambar/dokter 7.jpg" class="card-img-top dokter-img" alt="Dokter 6">
+                <div class="card-body">
+                    <h5 class="card-title">dr. Eko Sugianto, Sp.M</h5>
+                    <p class="card-text">Spesialis Mata</p>
+                    <p class="card-text"><small class="text-muted">7 tahun pengalaman</small></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5>Rumah Sakit Dr. Kariadi</h5>
+          <p>Menjadi rumah sakit yang mengutamakan kualitas pelayanan kesehatan dan kenyamanan pasien.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Kontak</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-telephone-fill"></i> (024) 1234567</li>
+            <li><i class="bi bi-envelope-fill"></i> info@rumahsakit.com</li>
+            <li><i class="bi bi-geo-alt-fill"></i> Jl. Raya No. 12, Semarang</li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Ikuti Kami</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>&copy; 2025 Rumah Sakit Dr. Kariadi. Semua Hak Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
