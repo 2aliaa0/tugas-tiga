@@ -1,0 +1,329 @@
+/*  NAVBAR */
+.navbar {
+    height: 50px; 
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-brand img {
+    height: 30px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0.7rem; 
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #0d6efd;
+  }
+
+  /* Custom Styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  /* Style untuk section about */
+  #about {
+    background-color: #8bbcec;
+    padding: 50px 0;
+    border-radius: 10px;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  #about p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  .service-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .service-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* styles.css */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Gaya untuk card */
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card .btn {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsif untuk ukuran layar kecil */
+  @media (max-width: 768px) {
+    .card-title {
+        font-size: 1.1rem;
+    }
+  
+    .card-text {
+        font-size: 0.9rem;
+    }
+  }
+  
+  /* Reset default margin dan padding */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Gaya Umum untuk halaman */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+  }
+  
+  /* Bagian Kontak */
+.contact-section {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+}
+
+/* Kontainer */
+.contact-container {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.contact-header {
+  text-align: center;
+}
+
+.contact-header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.contact-header p {
+  font-size: 1.2rem;
+  color: #457b9d;
+}
+
+/* Input dan Textarea */
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #1d3557;
+  box-shadow: none;
+}
+
+/* Tombol */
+.btn-custom {
+  background-color: #1d3557;
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #457b9d;
+  transform: scale(1.05);
+}
+
+/* Info Kontak */
+.contact-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #1d3557;
+  margin: 8px 0;
+}
+
+.contact-info i {
+  color: #457b9d;
+  margin-right: 8px;
+}
+
+.dokter-img {
+  height: 300px;
+  object-fit: cover;
+}
+  
+  /* Footer Style */
+.footer {
+  background: linear-gradient(135deg, #343a40, #495057);
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer h5 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer h5::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #00b0ff;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.footer ul li i {
+  margin-right: 10px;
+  font-size: 22px;
+  transition: transform 0.3s;
+}
+
+.footer ul li:hover i {
+  transform: scale(1.2);
+  color: #00b0ff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #00b0ff;
+}
+
+.footer .text-center {
+  margin-top: 2rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+  body {
+    background-color: lightblue;
+  }
